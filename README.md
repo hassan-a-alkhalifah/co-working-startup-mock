@@ -8,6 +8,18 @@
 
 _I was instructed to mockup/design and eventually build a website for a dummy new co-working startup who has established a space in town, which has been remodeled and ready to open soon. The scenario is, the client requires a website and I have been hired to design it and develop it._
 
+### Wireframe Mockup Screen Shots
+
+#### Mobile Wireframe Mockup
+
+![Mobile Wireframe Screenshot](img/mobile-wireframe-screenshot.png)
+
+----
+
+#### Tablet and Desktop Landing Page Wireframe Screenshot
+
+![Tablet and Desktop Landing Page Wireframe Screenshot](img/tablet-and-desktop-landing-page-wireframe-screenshot.png)
+
 ### Target Users
 
 * **Client**
