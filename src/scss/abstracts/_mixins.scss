@@ -1,0 +1,29 @@
+@mixin image-with-text-container($opacity-color, $div-width) {
+  width: 100%;
+  position: relative;
+  margin-top: 51px;
+  overflow: hidden;
+  justify-content: center;
+  &::after {
+    content: "";
+    background: $opacity-color;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+  }
+  div {
+    width: $div-width;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

@@ -1,0 +1,70 @@
+.main-footer-container {
+  a {
+    color: #FFF;
+    text-decoration: none;
+  }
+  #tour-plans-meeting-room-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @include image-with-text-container(rgba(78,77,83, .5), 266px);
+    height: calc(570px);
+    img {
+    }
+    div {
+      flex-direction: column;
+      margin: auto;
+      color: #FFF;
+      text-align: center;
+      P {
+        font-size: 23px;
+        margin-bottom: 17px;
+        font-weight: 600;
+      }
+      button {
+        margin-bottom: 27px;
+        width: 210px;
+        height: 65px;
+        border: 3px solid #FFF;
+        background-color: transparent;
+        border-radius: 2px;
+        font-size: 20px;
+        color: #FFF;
+        &:hover, &active {
+          cursor: pointer;
+          background-color: #FFF;
+          color: #000;
+          transition: color .15s ease-in-out,background-color .15s ease-in-out;
+        }
+      }
+    }
+  }
+  #bottom-footer-content-container {
+    background-color: #C38D9D;
+    padding: 52px 0;
+    color: #FFF;
+    text-align: center;
+    p {
+      font-size: 25px;
+    }
+    #social-media-links {
+      margin: 39px 0 19px 0;
+      img:nth-child(2) {
+        margin: 0 7px;
+      }
+    }
+    #footer-menu {
+      p {
+        font-weight: 900;
+        a:hover {
+          color: #AAA;
+          transition: color .15s ease-in-out;
+        }
+      }
+    }
+    #copyright {
+      color: #DECAD0;
+      margin-top: 52px;
+    }
+  }
+}

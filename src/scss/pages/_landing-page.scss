@@ -1,0 +1,113 @@
+.main-image-container {
+  @include image-with-text-container(rgba(51, 19, 7, .4), 100%);
+  height: calc(80px + 45vw);
+  display: flex;
+  img {
+    height: 100%;
+  }
+  h1 {
+    color: #FFF;
+    font-size: 39px;
+    font-style: italic;
+    font-weight: 900;
+  }
+}
+#main-landing-page-content-container {
+  padding: 52px 18px 0 18px;
+  a {
+    color: #FFF;
+    text-decoration: none;
+  }
+  h2 {
+    font-size: 27px;
+    font-weight: 900;
+    color: #E27D60;
+    text-align: center;
+    margin-bottom: 22px;
+  }
+  p {
+    font-size: 20px;
+    color: #707070;
+    margin-bottom: 32px;
+  }
+  .content-divider {
+    width: 100%;
+    height: 2px;
+    background-color: #41B3A3;
+    margin-bottom: 32px;
+  }
+  #quote-container {
+    @include image-with-text-container(rgba(195, 141, 157, .4), 90%);
+    height: calc(80px + 45vw);
+    img {
+      height: 100%;
+      width: 100%;
+    }
+    div {
+      flex-direction: column;
+      margin: auto;
+      p {
+        color: #000;
+        &:nth-child(1) {
+          font-size: 21px;
+          font-weight: 900;
+          font-style: italic;
+        }
+        &:nth-child(2) {
+          margin-bottom: 0;
+          font-size: 18px;
+          font-weight: 900;
+        }
+      }
+    }
+  }
+  #suggestion-plan-container {
+    @include image-with-text-container(rgba(0,0,0, .4), 70%);
+    height: calc(130px + 45vw);
+    margin-bottom: 22px;
+    &:hover, &active {
+      &::after {
+        background: rgba(0,0,0, .7);
+        transition: background-color .15s ease-in-out;
+      }
+      p {
+        color: #AAA;
+        transition: color .15s ease-in-out;
+      }
+    }
+    img {
+      height: 100%;
+      width: 100%;
+    }
+    div {
+      flex-direction: column;
+      margin: auto;
+      p {
+        color: #FFF;
+        &:nth-child(1) {
+          font-size: 23px;
+          font-weight: 900;
+          font-style: italic;
+        }
+        &:nth-child(2) {
+          margin-bottom: 0;
+          font-size: 29px;
+          font-weight: 900;
+        }
+      }
+    }
+  }
+  .activities {
+    width: 182px;
+    margin: 0 auto 19px auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    img {
+      margin-bottom: 23px;
+    }
+    P {
+      text-align: center;
+    }
+  }
+}
