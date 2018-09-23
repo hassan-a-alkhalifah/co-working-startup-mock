@@ -27,3 +27,11 @@
     align-items: center;
   }
 }
+@mixin button-colors($border-color, $font-color, $hover-font-color, $hover-bk-color) {
+  border: 3px solid $border-color;
+  color: $font-color;
+  &:hover, &active {
+    color: $hover-font-color;
+    background-color: $hover-bk-color;
+  }
+}

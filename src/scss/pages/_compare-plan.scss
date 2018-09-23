@@ -1,0 +1,10 @@
+.plans-container {
+  .header {
+    background-color: #E27D60;
+  }
+}
+#sign-up-btn {
+  @include button-colors(#40B3A2, #40B3A2, #FFF, #40B3A2);
+  display: block;
+  margin: 26px auto 0 auto;
+}
