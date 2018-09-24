@@ -75,6 +75,10 @@ $ npm install
 $ npm build
 ```
 
+```
+$ npm start
+```
+
 ## Technologies Used
 
 * _HTML5_
