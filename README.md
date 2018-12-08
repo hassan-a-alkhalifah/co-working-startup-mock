@@ -12,13 +12,13 @@ _I was instructed to mockup/design and eventually build a website for a dummy ne
 
 #### Mobile Wireframe Mockup
 
-![Mobile Wireframe Screenshot](img/mobile-wireframe-screenshot.png)
+![Mobile Wireframe Screenshot](./src/assets/images/mobile-wireframe-screenshot.png)
 
 ----
 
 #### Tablet and Desktop Landing Page Wireframe Screenshot
 
-![Tablet and Desktop Landing Page Wireframe Screenshot](img/tablet-and-desktop-landing-page-wireframe-screenshot.png)
+![Tablet and Desktop Landing Page Wireframe Screenshot](./src/assets/images/tablet-and-desktop-landing-page-wireframe-screenshot.png)
 
 ### Target Users
 
